@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Frontend percentage checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="checker">
+      <div>
+        <h1>Check your percentage score</h1>
+        <h3>Enter your score below</h3>
+        <p>(Kindly note that this checker is for the front-end track only)</p>
+      </div>
+
+      <div class="input">
+        <input
+          type="text"
+          placeholder="Enter Your Score"
+          id="score"
+          max="25"
+          min="0"
+        />
+        <button onclick="checkScore()" type="submit">Check</button>
+      </div>
+      <h2 id="display"></h2>
+    </div>
+     <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
