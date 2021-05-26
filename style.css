@@ -32,6 +32,7 @@ p {
   background-color: #111100;
   margin: 20px auto;
   padding: 20px;
+  box-shadow: 5px 10px 2px #262600;
 }
 .input {
   width: 50%;
@@ -76,6 +77,9 @@ img {
 }
 
 @media screen and (max-width: 650px) {
+  #checker{
+    width: 80%;
+  }
   h1{
     font-size: 1.5em;
   }
