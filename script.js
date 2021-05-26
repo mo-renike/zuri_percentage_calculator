@@ -14,7 +14,7 @@ function checkScore() {
         return error ;
     }
     else{
-      let result = (num / 24) * 100;
+      let result = ((num / 24) * 100).toFixed(2);
       if (result >= 90) {
         document.getElementById("5").style.display = "block";
         document.getElementById("display").innerText = `${result}% osheyyy Mark Zuckerberg!`;
