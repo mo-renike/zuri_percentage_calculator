@@ -1,7 +1,7 @@
 function checkScore() {
     let num =  document.getElementById("score").value ;
-  if (num > 25) {
-      let errorMessage = `jo, bawo lo se gba ${num} over 25?`;
+  if (num > 24) {
+      let errorMessage = `jo, bawo lo se gba ${num} over 24?`;
       document.getElementById("display").innerText = errorMessage;
       document.getElementById("3").style.display = "block";
       return errorMessage;
@@ -14,7 +14,7 @@ function checkScore() {
         return error ;
     }
     else{
-      let result = (num / 25) * 100;
+      let result = (num / 24) * 100;
       if (result >= 90) {
         document.getElementById("5").style.display = "block";
         document.getElementById("display").innerText = `${result}% osheyyy Mark Zuckerberg!`;
