@@ -28,7 +28,7 @@ p {
 #checker {
   display: block;
   text-align: center;
-  width: 50%;
+  width: 70%;
   background-color: #111100;
   margin: 20px auto;
   padding: 20px;
@@ -56,11 +56,30 @@ button:hover {
   color: #262600;
   background-color: #dddddd;
 }
-
-#display {
+.house {
   width: 50%;
-  height: 4em;
-  background-color: #1d1d00;
-  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+#display {
+  height: 5em;
+  background-color: transparent;
   padding: 10px;
+}
+
+img {
+  width: 50%;
+  margin: auto;
+  height: auto;
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  h1{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1em;
+  }
 }
