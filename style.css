@@ -1,7 +1,6 @@
 html {
   color: #dddddd;
-  background-color: #5e5e20;
-  /* background-color: #6B8E23; */
+  background-color: #54b41a;
 }
 * {
   margin: 0;
@@ -30,7 +29,7 @@ p {
   display: block;
   text-align: center;
   width: 60%;
-  background-color: #1d1d00;
+  background-color: #143d59;
   margin: 20px auto;
   padding: 20px;
   box-shadow: 3px 2px 5px #000000;
@@ -47,17 +46,18 @@ p {
 button,
 input[type="text"] {
   padding: 10px;
-  background-color: #5e5e20;
+  background-color: transparent;
+  border: 1px solid #54b41a;
   margin: 2px 0;
   outline: none;
   font-size: 1.1em;
   text-align: center;
-  color: inherit;
+  color: #54b41a;
   border-radius: 50px;
 }
 button:hover {
-  color: #5e5e20;
-  background-color: #dddddd;
+  background-color: #54b41a;
+  color: #143d59;
 }
 .house {
   width: 50%;
