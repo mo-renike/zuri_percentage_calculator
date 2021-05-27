@@ -1,6 +1,6 @@
 html {
-  color: #dddddd;
-  background-color: #54b41a;
+  color: #eeeeee;
+  background-color: #2b7a78;
 }
 * {
   margin: 0;
@@ -29,7 +29,7 @@ p {
   display: block;
   text-align: center;
   width: 60%;
-  background-color: #143d59;
+  background-color: #17252a;
   margin: 20px auto;
   padding: 20px;
   box-shadow: 3px 2px 5px #000000;
@@ -42,22 +42,26 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-
+button {
+  background-color: #858585;
+}
+input[type="text"] {
+  background-color: transparent;
+  border: 1px solid #000000;
+}
 button,
 input[type="text"] {
   padding: 10px;
-  background-color: transparent;
-  border: 1px solid #54b41a;
   margin: 2px 0;
   outline: none;
   font-size: 1.1em;
   text-align: center;
-  color: #54b41a;
+  color: inherit;
   border-radius: 50px;
 }
-button:hover {
-  background-color: #54b41a;
-  color: #143d59;
+.clear {
+  background-color: #410000;
+  color: inherit;
 }
 .house {
   width: 50%;
@@ -78,16 +82,16 @@ img {
 }
 
 @media screen and (max-width: 650px) {
-  #checker{
+  #checker {
     width: 80%;
   }
-  h1{
+  h1 {
     font-size: 1.5em;
   }
-  h3{
+  h3 {
     font-size: 1em;
   }
-  img{
+  img {
     width: 100%;
   }
 }
