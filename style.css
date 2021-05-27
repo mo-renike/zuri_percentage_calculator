@@ -44,10 +44,11 @@ p {
 }
 button {
   background-color: #00ffc8;
+  color: #000126;
 }
 input[type="text"] {
   background-color: transparent;
-  border: 1px solid #00ffc8;
+  border: 1px solid #00ffc8;color: #00ffc8;
 }
 button,
 input[type="text"] {
@@ -56,7 +57,7 @@ input[type="text"] {
   outline: none;
   font-size: 1.1em;
   text-align: center;
-  color: #000126;
+  
   border-radius: 50px;
 }
 .house {
