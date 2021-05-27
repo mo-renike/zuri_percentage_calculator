@@ -1,6 +1,6 @@
 html {
   color: #eeeeee;
-  background-color: #2b7a78;
+  background-color: #00ffc8;
 }
 * {
   margin: 0;
@@ -29,7 +29,7 @@ p {
   display: block;
   text-align: center;
   width: 60%;
-  background-color: #17252a;
+  background-color: #000126;
   margin: 20px auto;
   padding: 20px;
   box-shadow: 3px 2px 5px #000000;
@@ -43,11 +43,11 @@ p {
   justify-content: space-between;
 }
 button {
-  background-color: #858585;
+  background-color: #00ffc8;
 }
 input[type="text"] {
   background-color: transparent;
-  border: 1px solid #000000;
+  border: 1px solid #00ffc8;
 }
 button,
 input[type="text"] {
@@ -56,12 +56,8 @@ input[type="text"] {
   outline: none;
   font-size: 1.1em;
   text-align: center;
-  color: inherit;
+  color: #000126;
   border-radius: 50px;
-}
-.clear {
-  background-color: #410000;
-  color: inherit;
 }
 .house {
   width: 50%;
