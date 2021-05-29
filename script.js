@@ -13,7 +13,9 @@ function checkScore() {
       document.getElementById("1").style.display = "block";
       setTimeout((clear) => {window.location.reload()}, 3000);
         return error ;
-    }
+    } 
+
+
     else{
       let result = ((num / 24) * 100).toFixed(2);
       if (result >= 90) {
@@ -43,10 +45,13 @@ function checkScore() {
         document.getElementById("display").innerText = `${result}% lol just get out of here`;
         document.getElementById("4").style.display = "block";
         setTimeout((clear) => {window.location.reload()}, 3000);
-      }
+      } 
+    
       return result;
     } 
   }
   
   checkScore();
   clear();
+
+  
