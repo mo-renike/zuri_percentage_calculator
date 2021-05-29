@@ -1,28 +1,35 @@
-html {
-  color: #eeeeee;
-  background-color: #08091d;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 * {
   margin: 0;
   border: 0;
   box-sizing: border-box;
 }
 
+html {
+  color: #eeeeee;
+  background-color: #08091d;
+}
+
 body {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
+
 h1 {
   font-size: 2em;
   padding: 10px;
 }
+
 h3 {
   font-size: 1.5em;
   padding: 5px;
 }
+
 p {
   padding: 5px;
   font-size: 0.9em;
+  font-weight: 300;
 }
 
 #checker {
@@ -33,7 +40,9 @@ p {
   margin: 20px auto;
   padding: 20px;
   box-shadow: 3px 2px 5px #000000;
-  border-radius: 50px;
+  border-radius: 5px;
+  position: relative;
+  top: 10vh;
 }
 .input {
   width: 50%;
@@ -42,14 +51,18 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+
 button {
   background-color: #00ffc8;
   color: #000126;
 }
 input[type="text"] {
   background-color: transparent;
-  border: 1px solid #00ffc8;color: #00ffc8;
+  border: 1px solid #00ffc8;
+  color: #00ffc8;
+  font-weight: bold;
 }
+
 button,
 input[type="text"] {
   padding: 10px;
@@ -57,9 +70,16 @@ input[type="text"] {
   outline: none;
   font-size: 1.1em;
   text-align: center;
-  
-  border-radius: 50px;
+  border-radius: 4px;
+  font-weight: bold;
 }
+
+#btn:hover {
+  background-color: #000126!important;
+  color: #00ffc8;
+  transition: ease-in-out 1s;
+}
+
 .house {
   width: 50%;
   display: flex;
@@ -78,17 +98,46 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 783px) {
   #checker {
-    width: 80%;
+    width: 90%;
+    position: relative;
+    top: 10vh;
   }
+
   h1 {
     font-size: 1.5em;
   }
+
   h3 {
     font-size: 1em;
   }
+  p {
+    padding: 5px;
+    font-size: 0.7em;
+    font-weight: 300;
+  }
+
   img {
     width: 100%;
+  }
+
+  input[type="text"] {
+    background-color: transparent;
+    border: 1px solid #00ffc8;
+    color: #00ffc8;
+    font-size: 0.75em;
+    font-weight: bold;
+  }
+
+  #btn {
+    font-size: 0.75em;
+    font-weight: bold;
+  }
+
+  #btn:hover {
+    background-color: #000126!important;
+    color: #00ffc8;
+    transition: ease-in-out 1s;
   }
 }
